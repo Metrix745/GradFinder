@@ -2,7 +2,7 @@ import json
 import os
 import re
 from bs4 import BeautifulSoup
-from pydantic import BaseModel, Field
+# from pydantic import BaseModel, Field
 from crawl4ai import AsyncWebCrawler
 from crawl4ai.extraction_strategy import (
     JsonCssExtractionStrategy,
@@ -40,6 +40,52 @@ async def extract_scholar_data(u):
             news_teasers = json.loads(result.extracted_content)
     print(result.extracted_content)
     return result
+
+async def extract_paper_data(u):
+    schema = {
+        "name" : "gsc_oci_title_link",
+        "baseSelector": "gsc_oci_table",
+        "fields": [
+            {
+                "name": "authors",
+                "selector": "div.gsc_oci_value",
+                "type": "text",
+            },
+            {
+                "name": "date",
+                "selector": "div.gsc_oci_value",
+                "type": "text",
+            },
+            {
+                "name": "book",
+                "selector": "div.gsc_oci_value",
+                "type": "text",
+            },
+            {
+                "name": "pages",
+                "selector": "div.gsc_oci_value",
+                "type": "text",
+            },
+            {
+                "name": "description",
+                "selector": "div.gsc_oci_value",
+                "type": "text",
+            },
+        ],
+    }
+    extraction_strategy = JsonCssExtractionStrategy(schema, verbose=True)
+    async with AsyncWebCrawler(verbose=True) as crawler:
+            result = await crawler.arun(
+                url=u,
+                extraction_strategy=extraction_strategy,
+                bypass_cache=True,
+            )
+            assert result.success, "Failed to crawl the page"
+    
+            news_teasers = json.loads(result.extracted_content)
+    print(result.extracted_content)
+    return result
+     
 
 async def main():
     data = read_csv("umbc_profs.csv")
