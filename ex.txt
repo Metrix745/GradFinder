@@ -1,0 +1,1291 @@
+<body>
+ <div>
+  <div>
+   Loading...
+  </div>
+  <div>
+   The system can\'t perform the operation now. Try again later.
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <h2>
+      Citations per year
+     </h2>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <h2>
+      Duplicate citations
+     </h2>
+    </div>
+    <div>
+     <form>
+      <div>
+       The following articles are merged in Scholar. Their
+       <a>
+        combined citations
+       </a>
+       are counted only for the first article.
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <h2>
+      Merged citations
+     </h2>
+    </div>
+    <div>
+     <div>
+      This \"Cited by\" count includes citations to the following articles in Scholar. The ones marked * may be different from the article in the profile.
+     </div>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <h2>
+      <span id='\"gsc_cod_tadd\"'>
+       Add co-authors
+      </span>
+      <span id='\"gsc_cod_tedit\"'>
+       Co-authors
+      </span>
+      <a data-lim='\"Limit' data-txt='\"Review\"' href='\"javascript:void(0)\"' id='\"gsc_cod_trev\"' reached\"="">
+      </a>
+     </h2>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <h2>
+      Follow
+     </h2>
+    </div>
+    <div>
+     <form>
+      <div>
+       <div>
+        <a>
+         New articles by this author
+        </a>
+       </div>
+       <div>
+        <a>
+         New citations to this author
+        </a>
+       </div>
+       <div>
+        <a>
+         New articles related to this author\'s research
+        </a>
+       </div>
+      </div>
+      <div>
+       <label>
+        Email address for updates
+       </label>
+      </div>
+      <div>
+       <button>
+        <span class='\"gs_lbl\"'>
+         Done
+        </span>
+       </button>
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <a>
+     </a>
+    </div>
+    <div>
+     <div>
+      <a>
+       My profile
+      </a>
+      <a>
+       My library
+      </a>
+      <a>
+       Metrics
+      </a>
+      <a>
+       Alerts
+      </a>
+     </div>
+     <div>
+      <a>
+       Settings
+      </a>
+     </div>
+    </div>
+    <div>
+     <a>
+      Sign in
+     </a>
+    </div>
+   </div>
+  </div>
+  <div>
+   <a>
+   </a>
+   <a>
+   </a>
+   <a>
+   </a>
+   <div>
+    <a>
+     Sign in
+    </a>
+   </div>
+  </div>
+  <form>
+   <a>
+   </a>
+  </form>
+  <div>
+   <div>
+    <div>
+     <div>
+      <a>
+       Get my own profile
+      </a>
+      <div>
+       <h3>
+        Cited by
+        <button>
+         <span class='\"gs_lbl\"'>
+          View all
+         </span>
+        </button>
+       </h3>
+       <table>
+        <thead>
+         <tr>
+          <th>
+           All
+          </th>
+          <th>
+           Since 2019
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           <a>
+            Citations
+           </a>
+          </td>
+          <td>
+           2962
+          </td>
+          <td>
+           946
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a>
+            h-index
+           </a>
+          </td>
+          <td>
+           23
+          </td>
+          <td>
+           17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a>
+            i10-index
+           </a>
+          </td>
+          <td>
+           28
+          </td>
+          <td>
+           20
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <div>
+        <div>
+         <div>
+          0
+         </div>
+         <div>
+          240
+         </div>
+         <div>
+          120
+         </div>
+         <div>
+          60
+         </div>
+         <div>
+          180
+         </div>
+        </div>
+        <div>
+         <div>
+          2003200420052006200720082009201020112012201320142015201620172018201920202021202220232024
+          <a>
+           21
+          </a>
+          <a>
+           30
+          </a>
+          <a>
+           45
+          </a>
+          <a>
+           74
+          </a>
+          <a>
+           108
+          </a>
+          <a>
+           65
+          </a>
+          <a>
+           104
+          </a>
+          <a>
+           93
+          </a>
+          <a>
+           122
+          </a>
+          <a>
+           148
+          </a>
+          <a>
+           159
+          </a>
+          <a>
+           181
+          </a>
+          <a>
+           200
+          </a>
+          <a>
+           188
+          </a>
+          <a>
+           231
+          </a>
+          <a>
+           182
+          </a>
+          <a>
+           187
+          </a>
+          <a>
+           186
+          </a>
+          <a>
+           166
+          </a>
+          <a>
+           149
+          </a>
+          <a>
+           145
+          </a>
+          <a>
+           112
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <div>
+        <div>
+         Public access
+        </div>
+        <a>
+         View all
+        </a>
+       </div>
+       <div>
+        <button>
+         <span class='\"gs_lbl\"'>
+          View all
+         </span>
+        </button>
+       </div>
+       <div>
+        <div>
+         6 articles
+        </div>
+        <div>
+         <div>
+          1 article
+         </div>
+        </div>
+        <div>
+         available
+        </div>
+        <div>
+         not available
+        </div>
+        <div>
+         Based on funding mandates
+        </div>
+       </div>
+      </div>
+      <div>
+       <h3>
+        Co-authors
+        <button>
+         <span class='\"gs_lbl\"'>
+          View all
+         </span>
+        </button>
+       </h3>
+       <ul>
+        <li>
+         <div>
+          <img 102w\"="" 26w,https:="" 45px,26px\"="" 45w,https:="" alt='\"James' citations?view_op="view_photo&amp;user=UWZA0v4AAAAJ&amp;citpid=3" class='\"gs_pp_df\"' f.="" id='\"gsc_rsb-UWZA0v4AAAAJ-img\"' o\'brien\"="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=UWZA0v4AAAAJ&amp;citpid=3\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=UWZA0v4AAAAJ&amp;citpid=3'/>
+          <a href='\"/citations?user=UWZA0v4AAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           James F. O\'Brien
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor of Computer Science, University of California Berkeley
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at berkeley.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 102w\"="" 26w,https:="" 45px,26px\"="" 45w,https:="" alt='\"Jessica' citations?view_op="view_photo&amp;user=vswo4rQAAAAJ&amp;citpid=1" class='\"gs_pp_df\"' hodgins\"="" id='\"gsc_rsb-vswo4rQAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=vswo4rQAAAAJ&amp;citpid=1\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=vswo4rQAAAAJ&amp;citpid=1'/>
+          <a href='\"/citations?user=vswo4rQAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Jessica Hodgins
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor of Computer Science and Robotics, Carnegie Mellon University
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.cmu.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 108w\"="" 27w,https:="" 47px,27px\"="" 47w,https:="" alt='\"Ladislav' citations?view_op="view_photo&amp;user=62RXlNoAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-62RXlNoAAAAJ-img\"' kavan\"="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=62RXlNoAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=62RXlNoAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=62RXlNoAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Ladislav Kavan
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Reality Labs Research
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.utah.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 124w\"="" 31w,https:="" 54px,31px\"="" 54w,https:="" alt='\"Ben' citations?view_op="view_photo&amp;user=ZisEORUAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-ZisEORUAAAAJ-img\"' jones\"="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=ZisEORUAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=ZisEORUAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=ZisEORUAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Ben Jones
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           University of Utah
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.utah.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 111w\"="" 28w,https:="" 49px,28px\"="" 49w,https:="" alt='\"Tamar' citations?view_op="view_photo&amp;user=KibUW1sAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-KibUW1sAAAAJ-img\"' scholar.googleusercontent.com="" shinar\"="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=KibUW1sAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=KibUW1sAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=KibUW1sAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Tamar Shinar
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           University of California, Riverside
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.ucr.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 102w\"="" 26w,https:="" 45px,26px\"="" 45w,https:="" aaron="" alt='\"Joshua' citations?view_op="view_photo&amp;user=eYA1nLIAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-eYA1nLIAAAAJ-img\"' levine\"="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=eYA1nLIAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=eYA1nLIAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=eYA1nLIAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Joshua Aaron Levine
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Associate Professor, University of Arizona
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at email.arizona.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 104w\"="" 26w,https:="" 46px,26px\"="" 46w,https:="" alt='\"Peter-Pike' citations?view_op="view_photo&amp;user=RoQBDuwAAAAJ&amp;citpid=3" class='\"gs_pp_df\"' id='\"gsc_rsb-RoQBDuwAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' sloan\"="" src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=RoQBDuwAAAAJ&amp;citpid=3\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=RoQBDuwAAAAJ&amp;citpid=3'/>
+          <a href='\"/citations?user=RoQBDuwAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Peter-Pike Sloan
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Technical Fellow, Graphics R&amp;D, Activision
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at activision.com
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,https:="" 56px,32px\"="" 56w,https:="" alt='\"Haimasree' bhattacharya\"="" citations?view_op="view_photo&amp;user=5ZaRJ4sAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-5ZaRJ4sAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=5ZaRJ4sAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=5ZaRJ4sAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=5ZaRJ4sAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Haimasree Bhattacharya
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           University of Utah
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.utah.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,https:="" 56px,32px\"="" 56w,https:="" alt='\"Fernando' citations?view_op="view_photo&amp;user=YB8_6gkAAAAJ&amp;citpid=1" class='\"gs_pp_df\"' de="" id='\"gsc_rsb-YB8_6gkAAAAJ-img\"' la="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=YB8_6gkAAAAJ&amp;citpid=1\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=YB8_6gkAAAAJ&amp;citpid=1' torre\"=""/>
+          <a href='\"/citations?user=YB8_6gkAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Fernando De la Torre
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Research Associate Professor, Carnegie Mellon University
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.cmu.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 122w\"="" 30w,https:="" 53px,30px\"="" 53w,https:="" alt='\"Tiantian' citations?view_op="view_photo&amp;user=piSbEjwAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-piSbEjwAAAAJ-img\"' liu\"="" scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=piSbEjwAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=piSbEjwAAAAJ&amp;citpid=2'/>
+          <a href='\"/citations?user=piSbEjwAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Tiantian Liu
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Taichi Graphics
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at taichi.graphics
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,="" 56px,32px\"="" 56w,="" alt='\"Robert' avatar_scholar_128.png="" avatar_scholar_56.png="" bridson\"="" citations="" class='\"gs_pp_df\"' id='\"gsc_rsb-2Y2yC54AAAAJ-img\"' images="" sizes='\"(max-width:981px)' src='\"/citations/images/avatar_scholar_56.png\"' srcset='\"/citations/images/avatar_scholar_32.png'/>
+          <a href='\"/citations?user=2Y2yC54AAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Robert Bridson
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor of Computer Science, University of British Columbia
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.ubc.ca
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,https:="" 56px,32px\"="" 56w,https:="" alt='\"Chris' citations?view_op="view_photo&amp;user=OGdXlpcAAAAJ&amp;citpid=6" class='\"gs_pp_df\"' id='\"gsc_rsb-OGdXlpcAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=OGdXlpcAAAAJ&amp;citpid=6\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=OGdXlpcAAAAJ&amp;citpid=6' wojtan\"=""/>
+          <a href='\"/citations?user=OGdXlpcAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Chris Wojtan
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor, Institute of Science and Technology Austria (ISTA)
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at ist.ac.at
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 105w\"="" 26w,https:="" 46px,26px\"="" 46w,https:="" alt='\"Greg' citations?view_op="view_photo&amp;user=Q_4d9N0AAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-Q_4d9N0AAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=Q_4d9N0AAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=Q_4d9N0AAAAJ&amp;citpid=2' turk\"=""/>
+          <a href='\"/citations?user=Q_4d9N0AAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Greg Turk
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor, Georgia Tech
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cc.gatech.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,https:="" 56px,32px\"="" 56w,https:="" alt='\"Qingyuan' citations?view_op="view_photo&amp;user=3yPjBLQAAAAJ&amp;citpid=2" class='\"gs_pp_df\"' id='\"gsc_rsb-3yPjBLQAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=3yPjBLQAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=3yPjBLQAAAAJ&amp;citpid=2' zheng\"=""/>
+          <a href='\"/citations?user=3yPjBLQAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Qingyuan Zheng
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Tencent America
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at global.tencent.com
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,="" 56px,32px\"="" 56w,="" a.="" alt='\"Brian' avatar_scholar_128.png="" avatar_scholar_56.png="" barsky\"="" citations="" class='\"gs_pp_df\"' id='\"gsc_rsb-oTBMllcAAAAJ-img\"' images="" sizes='\"(max-width:981px)' src='\"/citations/images/avatar_scholar_56.png\"' srcset='\"/citations/images/avatar_scholar_32.png'/>
+          <a href='\"/citations?user=oTBMllcAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Brian A. BARSKY
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           University of California, Berkeley
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at berkeley.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 23w,https:="" 41px,23px\"="" 41w,https:="" 94w\"="" alt='\"J.' andreas="" bærentzen\"="" citations?view_op="view_photo&amp;user=if2X4wkAAAAJ&amp;citpid=10" class='\"gs_pp_df\"' id='\"gsc_rsb-if2X4wkAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=if2X4wkAAAAJ&amp;citpid=10\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=if2X4wkAAAAJ&amp;citpid=10'/>
+          <a href='\"/citations?user=if2X4wkAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           J. Andreas Bærentzen
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor, Technical University of Denmark
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at dtu.dk
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 102w\"="" 26w,https:="" 45px,26px\"="" 45w,https:="" alt='\"Kenny' citations?view_op="view_photo&amp;user=CQkvlpUAAAAJ&amp;citpid=6" class='\"gs_pp_df\"' erleben\"="" id='\"gsc_rsb-CQkvlpUAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=CQkvlpUAAAAJ&amp;citpid=6\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=CQkvlpUAAAAJ&amp;citpid=6'/>
+          <a href='\"/citations?user=CQkvlpUAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Kenny Erleben
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor, Department of Computer Science, University of Copenhagen
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at di.ku.dk
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 128w\"="" 32w,="" 56px,32px\"="" 56w,="" alt='\"Jens' avatar_scholar_128.png="" avatar_scholar_56.png="" citations="" class='\"gs_pp_df\"' fursund\"="" id='\"gsc_rsb-zScVoWYAAAAJ-img\"' images="" sizes='\"(max-width:981px)' src='\"/citations/images/avatar_scholar_56.png\"' srcset='\"/citations/images/avatar_scholar_32.png'/>
+          <a href='\"/citations?user=zScVoWYAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Jens Fursund
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at fursund.com
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 125w\"="" 31w,https:="" 55px,31px\"="" 55w,https:="" alt='\"David' bindel\"="" citations?view_op="view_photo&amp;user=04TuVhEAAAAJ&amp;citpid=1" class='\"gs_pp_df\"' id='\"gsc_rsb-04TuVhEAAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=04TuVhEAAAAJ&amp;citpid=1\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=04TuVhEAAAAJ&amp;citpid=1'/>
+          <a href='\"/citations?user=04TuVhEAAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           David Bindel
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Professor of Computer Science, Cornell University
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at cs.cornell.edu
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+        <li>
+         <div>
+          <img 108w\"="" 27w,https:="" 47px,27px\"="" 47w,https:="" alt='\"Nils' citations?view_op="view_photo&amp;user=GEehwv8AAAAJ&amp;citpid=15" class='\"gs_pp_df\"' id='\"gsc_rsb-GEehwv8AAAAJ-img\"' scholar.googleusercontent.com="" sizes='\"(max-width:981px)' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=GEehwv8AAAAJ&amp;citpid=15\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=tiny_photo&amp;user=GEehwv8AAAAJ&amp;citpid=15' thuerey\"=""/>
+          <a href='\"/citations?user=GEehwv8AAAAJ&amp;hl=en\"' tabindex='\"-1\"'>
+           Nils Thuerey
+          </a>
+          <span class='\"gsc_rsb_a_ext\"'>
+           Technical University of Munich
+          </span>
+          <span class='\"gsc_rsb_a_ext' gsc_rsb_a_ext2\"="">
+           Verified email at tum.de
+          </span>
+          <span class='\"gsc_rsb_tap\"'>
+           <span class='\"gs_btnPR\"'>
+            <span class='\"gs_ico\"'>
+            </span>
+           </span>
+          </span>
+         </div>
+        </li>
+       </ul>
+       <div>
+        <button>
+         <span class='\"gs_lbl\"'>
+          View all
+         </span>
+        </button>
+       </div>
+      </div>
+     </div>
+     <div>
+      <div>
+       <a>
+        Follow
+       </a>
+       <div>
+        <div>
+         <img 128w,https:="" 256w\"="" 80px,128px\"="" alt='\"Adam' bargteil\"="" citations?view_op="medium_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2" id='\"gsc_prf_pup-img\"' scholar.googleusercontent.com="" sizes='\"print' src='\"https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2'/>
+        </div>
+       </div>
+       <div>
+        <div>
+         <div>
+          Adam Bargteil
+         </div>
+        </div>
+        <div>
+         <a>
+          University of Maryland, Baltimore County
+         </a>
+        </div>
+        <div>
+         Verified email at umbc.edu -
+         <a>
+          Homepage
+         </a>
+        </div>
+        <div>
+         <a>
+          Computer Animation
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div>
+      <div>
+       <a>
+        Articles
+       </a>
+       <a>
+        Cited by
+       </a>
+       <a>
+        Public access
+       </a>
+       <a>
+        Co-authors
+       </a>
+      </div>
+     </div>
+     <div>
+      <form>
+       <div>
+        <table>
+         <thead>
+          <tr>
+           <th>
+            <a class='\"gsc_a_a\"' href='\"/citations?hl=en&amp;user=fArWdfAAAAAJ&amp;view_op=list_works&amp;sortby=title\"'>
+             Title
+            </a>
+            <div>
+             <button>
+              <span class='\"gs_lbl\"'>
+               Sort
+              </span>
+              <span class='\"gs_icm\"'>
+              </span>
+             </button>
+             <div>
+              <div>
+               <a>
+                Sort by citations
+               </a>
+               <a>
+                Sort by year
+               </a>
+               <a>
+                Sort by title
+               </a>
+              </div>
+             </div>
+            </div>
+           </th>
+           <th>
+            <div class='\"gs_nph\"'>
+             <a class='\"gsc_a_a\"' href='\"/citations?hl=en&amp;user=fArWdfAAAAAJ&amp;view_op=list_works\"'>
+              Cited by
+             </a>
+            </div>
+            <div class='\"gs_oph\"'>
+             Cited by
+            </div>
+           </th>
+           <th>
+            Year
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            <a>
+             Optimization in Computer Graphics and Interactive Techniques
+            </a>
+            <div>
+             AW Bargteil, M Olano
+            </div>
+            <div>
+             ACM SIGGRAPH 2024 Courses, 1-2, 2024
+            </div>
+           </td>
+           <td>
+            2024
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Visual Evaluation of WRF-SFire Simulations using Landsat Burn Probability Maps.
+            </a>
+            <div>
+             S Shivadekar, A Bargteil, M Halem
+            </div>
+            <div>
+             AGU Fall Meeting Abstracts 2023, IN01-08, 2023
+            </div>
+           </td>
+           <td>
+            2023
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             A Data Driven AI/Machine Learning Approach to Conduct OSSEs
+            </a>
+            <div>
+             M Halem, P Shukla, A Bargteil, Q Zheng
+            </div>
+            <div>
+             103rd AMS Annual Meeting, 2023
+            </div>
+           </td>
+           <td>
+            2023
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Towards a Dynamic Multiscale Wildfire Digital Twin
+            </a>
+            <div>
+             M Halem, J Mandel, A Kochanski, S Chiao, Z Yang, E Kalnay, ...
+            </div>
+            <div>
+             AGU Fall Meeting Abstracts 2022, IN35D-0428, 2022
+            </div>
+           </td>
+           <td>
+            2022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             SIGGRAPH Asia 2022 Conference Papers
+            </a>
+            <div>
+             SK Jung, J Lee, A Bargteil
+            </div>
+            <div>
+             ACM, 2022
+            </div>
+           </td>
+           <td>
+            2022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Towards a Dynamic Data Driven Wildfire Digital Twin (WDT): Impacts on Deforestation, Air Quality and Cardiopulmonary Disease
+            </a>
+            <div>
+             M Halem, AK Kochanski, J Mandel, J Sleeman, B Demoz, A Bargteil, ...
+            </div>
+            <div>
+             International Conference on Dynamic Data Driven Applications Systems, 403-410, 2022
+            </div>
+           </td>
+           <td>
+            2022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             A Machine Learning Plume-Resolving Model Implementation over North America for Mega-Wildland Fire Smoke Impacts on Distant Planetary Boundary Layers
+            </a>
+            <div>
+             M Halem, J Mandel, P Nguyen, R Atlas, Z Yang, A Bargteil, J Sleeman, ...
+            </div>
+            <div>
+             102nd American Meteorological Society Annual Meeting, 2022
+            </div>
+           </td>
+           <td>
+            2022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Leveraging Machine Learning to Improve the Effective Resolution of WRF Models of Mega-Fires
+            </a>
+            <div>
+             Q Zheng, Z Yang, M Halem, A Bargteil
+            </div>
+            <div>
+             102nd American Meteorological Society Annual Meeting, 2022
+            </div>
+           </td>
+           <td>
+            2022
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Learning aesthetic layouts via visual guidance
+            </a>
+            <div>
+             Q Zheng, Z Li, A Bargteil
+            </div>
+            <div>
+             arXiv preprint arXiv:2107.06262, 2021
+            </div>
+           </td>
+           <td>
+            <a>
+             1
+            </a>
+           </td>
+           <td>
+            2021
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             An introduction to physics-based animation
+            </a>
+            <div>
+             AW Bargteil, T Shinar, PG Kry
+            </div>
+            <div>
+             SIGGRAPH Asia 2020 Courses, 1-57, 2020
+            </div>
+           </td>
+           <td>
+            <a>
+             39
+            </a>
+           </td>
+           <td>
+            2020
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Multi-resolution Clustering for Enhanced Elastic Behavior in Clustered Shape Matching
+            </a>
+            <div>
+             AV Kaliappan, AW Bargteil
+            </div>
+            <div>
+             Proceedings of the 13th ACM SIGGRAPH Conference on Motion, Interaction and …, 2020
+            </div>
+           </td>
+           <td>
+            2020
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Learning to shadow hand-drawn sketches
+            </a>
+            <div>
+             Q Zheng, Z Li, A Bargteil
+            </div>
+            <div>
+             Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2020
+            </div>
+           </td>
+           <td>
+            <a>
+             30
+            </a>
+           </td>
+           <td>
+            2020
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Global momentum preservation for position-based dynamics
+            </a>
+            <div>
+             A Dahl, A Bargteil
+            </div>
+            <div>
+             Proceedings of the 12th ACM SIGGRAPH Conference on Motion, Interaction and …, 2019
+            </div>
+           </td>
+           <td>
+            <a>
+             2
+            </a>
+           </td>
+           <td>
+            2019
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Early Termination of Conjugate Gradients for Corotated Finite Elements
+            </a>
+            <div>
+             A Dahl, A Bargteil
+            </div>
+            <div>
+             Proceedings of the 12th ACM SIGGRAPH Conference on Motion, Interaction and …, 2019
+            </div>
+           </td>
+           <td>
+            2019
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Fluid Simulation on Unstructured Quadrilateral Surface Meshes
+            </a>
+            <div>
+             H Bhattacharya, JA Levine, AW Bargteil
+            </div>
+            <div>
+             UMBC Computer Science and Electrical Engineering Department Collection, 2019
+            </div>
+           </td>
+           <td>
+            2019
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Energized rigid body fracture
+            </a>
+            <div>
+             X Li, S Andrews, B Jones, A Bargteil
+            </div>
+            <div>
+             Proceedings of the ACM on Computer Graphics and Interactive Techniques 1 (1 …, 2018
+            </div>
+           </td>
+           <td>
+            <a>
+             3
+            </a>
+           </td>
+           <td>
+            2018
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             ‘Jurassic Park’made a dinosaur-sized leap forward in computer-generated animation on screen, 25 years ago
+            </a>
+            <div>
+             A Bargteil
+            </div>
+            <div>
+             UMBC Faculty Collection, 2018
+            </div>
+           </td>
+           <td>
+            2018
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Efficient collision detection for example-based deformable bodies
+            </a>
+            <div>
+             B Jones, T Shinar, J Levine, AW Bargteil
+            </div>
+            <div>
+             Proceedings of the 10th International Conference on Motion in Games, 1-5, 2017
+            </div>
+           </td>
+           <td>
+            2017
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             Reclustering for large plasticity in clustered shape matching
+            </a>
+            <div>
+             M Falkenstein, B Jones, JA Levine, T Shinar, AW Bargteil
+            </div>
+            <div>
+             Proceedings of the 10th International Conference on Motion in Games, 1-6, 2017
+            </div>
+           </td>
+           <td>
+            <a>
+             6
+            </a>
+           </td>
+           <td>
+            2017
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <a>
+             How ‘Bambi’paved the way for both ‘Fallout 4’and ‘Angry Birds’
+            </a>
+            <div>
+             A Bargteil
+            </div>
+            <div>
+             UMBC Faculty Collection, 2017
+            </div>
+           </td>
+           <td>
+            2017
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div>
+         The system can\'t perform the operation now. Try again later.
+        </div>
+       </div>
+       <div>
+        Articles 1–20
+        <div>
+         <button>
+          <span class='\"gs_ico\"'>
+          </span>
+          <span class='\"gs_lbl\"'>
+           Show more
+          </span>
+         </button>
+        </div>
+       </div>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <a>
+     Privacy
+    </a>
+    <a>
+     Terms
+    </a>
+    <a>
+     Help
+    </a>
+   </div>
+   <div>
+    <a>
+     About Scholar
+    </a>
+    <a>
+     Search help
+    </a>
+   </div>
+  </div>
+ </div>
+</body>
