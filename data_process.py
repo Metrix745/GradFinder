@@ -92,15 +92,43 @@ def filter_links(links, scholar_id):
 async def process_link(link):
     url = f"https://scholar.google.com{link}"
     info = await extract_paper_data(url)
+    
 
-    return info
+    soup = BeautifulSoup(info.html, 'html.parser')
+
+    extracted_data = [div.get_text() for div in soup.find_all('div', class_='gsc_oci_value')]
+
+    return extracted_data
 
 async def main():
     raw_csv = load_csv(CSV_DEST)
     scholar_ids = extract_scholar_id(raw_csv)
-    adam = await read_scholar_page(scholar_ids[0])
-    # print(adam)
-    blah = await process_link(adam[0])
-    print(blah)
+    # adam = await read_scholar_page(scholar_ids[0])
+    # # print(adam)
+    # extracted_paper = await process_link(adam[0])
+    # print(extracted_paper)
+    
+    dictionary = {}
+
+    for scholar_id in scholar_ids:
+        dictionary[scholar_id] = {
+            'authors': [],
+            'date': [],
+            'book': [],
+            'pages': [],
+            'description': []
+        }
+        links = await read_scholar_page(scholar_id)
+        for link in links:
+            extracted_data = await process_link(link)
+            dictionary[scholar_id]['authors'].append(extracted_data[0])
+            dictionary[scholar_id]['date'].append(extracted_data[1])
+            dictionary[scholar_id]['book'].append(extracted_data[2])
+            dictionary[scholar_id]['pages'].append(extracted_data[3])
+            dictionary[scholar_id]['description'].append(extracted_data[4])
+
+
+
+    
 
 asyncio.run(main())
