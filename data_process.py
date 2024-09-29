@@ -78,8 +78,11 @@ async def read_scholar_page(scholar_id):
     links = await simple_crawl(url)
     
     filtered_links = filter_links(links, scholar_id)
+    raw = await extract_paper_data(url)
+    soup = BeautifulSoup(raw.html, 'html.parser', from_encoding='utf-8')
+    name = soup.title.get_text()
 
-    return filtered_links
+    return filtered_links, name
 
 def filter_links(links, scholar_id):
     flattened_links = []
@@ -117,23 +120,25 @@ async def main():
     scholar_ids = list(set(scholar_ids))
     
     for scholar_id in scholar_ids:
+        
+        links, name = await read_scholar_page(scholar_id)
         person_work = {
             'scholar_id': scholar_id,
             # 'authors': [],
             # 'date': [],
             # 'book': [],
             # 'pages': [],
+            'name': name,
             'description': [],
             'title': []
         }
-        links = await read_scholar_page(scholar_id)
         for link in links:
             description, title = await process_link(link)
 
             person_work['description'].append(description)
             person_work['title'].append(title)
         
-        with open(f'prof_jsons/{scholar_id}.json', 'w') as json_file:
+        with open(f'prof_jsons_2/{scholar_id}.json', 'w') as json_file:
             json.dump(person_work, json_file, indent=4)
 
 
