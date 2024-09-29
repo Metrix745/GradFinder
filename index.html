@@ -18,7 +18,7 @@
     </header>
     <main>
         <h1>Lab Finder</h1>
-        <p>Use this tool to help you find a sustained lab here at UMBC!  All majors welcome!</p>
+        <p>Use this tool to help you find a sustained lab here at UMBC!  Currently supporting computing majors!</p>
 
         <py-script src="./main.py"></py-script>
         <form id="form" onsubmit="submitForm(event)">
@@ -89,7 +89,7 @@
 
             // Function to load and parse CSV file
             function loadCSV() {
-                Papa.parse('umbc_profs.csv', {
+                Papa.parse('data.csv', {
                     download: true,
                     header: true,
                     complete: function(results) {
@@ -104,8 +104,8 @@
                     const tr = document.createElement('tr');
                     tr.innerHTML = `
                         <td>${row['name']}</td>
-                        <td>${row['Research Area']}</td>
-                        <td><a href="${row['link']}" target="_blank">${row['link']}</a></td>
+                        <td>${row['research area']}</td>
+                        <td><a href="${row['contact']}" target="_blank">${row['contact']}</a></td>
                     `;
                     resultsTableBody.appendChild(tr);
                 });

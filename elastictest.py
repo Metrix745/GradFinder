@@ -9,20 +9,20 @@ es = Elasticsearch(
 
 response = es.search(
     index="profs",
-    size=1,
+    size=5,
     query={
         "text_expansion": {
             "description_embedding": {
                 "model_id": ".elser_model_2",
-                "model_text": "visual",
+                "model_text": "Theoretical Computer Science",
             }
         }
     },
 )
 
-print(response["hits"]["hits"][0]['_source']['scholar_id'])
+# print(response["hits"]["hits"][0]['_source']['scholar_id'])
 for hit in response['hits']['hits']:
-    #print(hit)
-    print()
+    print(hit['_source']['scholar_id'])
+    # print()
     
     
