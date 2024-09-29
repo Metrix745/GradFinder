@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
  <head>
@@ -134,10 +135,94 @@ function kf(a){(a.type!="keydown"||a.g.keyCode==13&&a.g&&!ab(a.g))&&jf()}functio
        #gsc_md_hist{width:80%;max-width:386px;}#gsc_md_hist_c{position:relative;width:100%;}
       </style>
       <div id="gsc_md_hist_c">
+=======
+<body>
+ <div>
+  <div>
+   Loading...
+  </div>
+  <div>
+   The system can\'t perform the operation now. Try again later.
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+    </div>
+   </div>
+  </div>
+  <div>
+   <div>
+    <div>
+     <a>
+     </a>
+     <a>
+     </a>
+    </div>
+    <div>
+     <div>
+      <a>
+       My profile
+      </a>
+      <a>
+       My library
+      </a>
+      <a>
+       Metrics
+      </a>
+      <a>
+       Alerts
+      </a>
+     </div>
+     <div>
+      <a>
+       Settings
+      </a>
+     </div>
+    </div>
+    <div>
+     <a>
+      Sign in
+     </a>
+    </div>
+   </div>
+  </div>
+  <div>
+   <a>
+   </a>
+   <div>
+    <h1>
+     View article
+    </h1>
+   </div>
+   <div>
+    <a>
+     Sign in
+    </a>
+   </div>
+  </div>
+  <form>
+   <a>
+   </a>
+  </form>
+  <div>
+   <div>
+    <div>
+     <div>
+      <a>
+       <img 128w\"="" 56w,https:="" alt='\"Adam' bargteil\"="" citations?view_op="view_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2" height='\"43\"' scholar.googleusercontent.com="" sizes='\"56px\"' src='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2\"' srcset='\"https://scholar.googleusercontent.com/citations?view_op=small_photo&amp;user=fArWdfAAAAAJ&amp;citpid=2' width='\"56\"/'/>
+      </a>
+      <div>
+       <a>
+        Adam Bargteil
+       </a>
+>>>>>>> origin
       </div>
      </div>
     </div>
    </div>
+<<<<<<< HEAD
    <div class="gs_md_wnw gs_md_ds gs_md_wmw" data-h="600">
     <div aria-labelledby="gsc_md_cbyd-t" class="gs_md_d gs_md_ds gs_ttzi" data-cid="gsc_md_cbyd_l" data-wfc="gsc_md_cbyd-x" id="gsc_md_cbyd" role="dialog" tabindex="-1">
      <div class="gs_md_hdr">
@@ -168,6 +253,90 @@ function kf(a){(a.type!="keydown"||a.g.keyCode==13&&a.g&&!ab(a.g))&&jf()}functio
        <div id="gsc_md_cbyd_l">
        </div>
       </form>
+=======
+   <div>
+    <div>
+     <div>
+      <div>
+       <a>
+        Optimization in Computer Graphics and Interactive Techniques
+       </a>
+      </div>
+     </div>
+     <div>
+      <div>
+       <div>
+        Authors
+       </div>
+       <div>
+        Adam W Bargteil, Marc Olano
+       </div>
+      </div>
+      <div>
+       <div>
+        Publication date
+       </div>
+       <div>
+        2024/7/27
+       </div>
+      </div>
+      <div>
+       <div>
+        Book
+       </div>
+       <div>
+        ACM SIGGRAPH 2024 Courses
+       </div>
+      </div>
+      <div>
+       <div>
+        Pages
+       </div>
+       <div>
+        1-2
+       </div>
+      </div>
+      <div>
+       <div>
+        Description
+       </div>
+       <div>
+        <div>
+         <div>
+          Like a semester long graduate seminar on Optimization in Computer Graphics and Interactive Techniques, this course looks at Optimization through the lens of 13 technical papers selected by the lecturers. The lecturers will highlight trends, similarities, differences, and historical threads through the papers. The papers will cover a range of topics including numerical solutions, objective functions, discrete and continuous optimization, dimensionality reduction, and frictional contact. Applications will range from image segmentation to truss structures to real-time rendering.
+         </div>
+         <div>
+          The course will also serve as a retrospective on the selected papers, placing them in historical perspective and highlighting significant contributions as well as forgotten gems.
+         </div>
+         <div>
+          The lecturers have broad expertise across computer graphics and interactive techniques and have co-led the VANGOGH lab meeting at UMBC since 2015.
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <div>
+        Scholar articles
+       </div>
+       <div>
+        <div>
+         <div>
+          <a>
+           Optimization in Computer Graphics and Interactive Techniques
+          </a>
+         </div>
+         <div>
+          AW Bargteil, M Olano - ACM SIGGRAPH 2024 Courses, 2024
+         </div>
+         <div>
+          <a>
+           Related articles
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+>>>>>>> origin
      </div>
     </div>
    </div>

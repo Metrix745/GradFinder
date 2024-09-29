@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab Finder</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Lab Finder</h1>
+        <p>Use this tool to help you find a sustained lab here at UMBC!  All majors welcome!</p>
+
+        <py-script src="./main.py"></py-script>
+        <form id="form" py-submit="submit_handler()" reset="reset_handler()">
+            <div>
+                <label class = "text_label" for="name">Name:</label>
+                <input class = "text_fill" id="name" name="name" type="text" placeholder="Your Name"py-input="name_input_handler()">
+            </div>
+
+            <div>
+                <label for="email" class = "text_label">Email:</label>
+                <input class = "text_fill" id="email" name="email" type="email" placeholder="your.email@example.com" py-input="email_input_handler()">
+            </div>
+
+            <div>
+                <label for="major" class = "text_label">Major:</label>
+                <input class = "text_fill" id="major" name="major" type="text" placeholder="Your Major" py-input="major_input_handler()">
+            </div>
+
+            <div>
+                <label for="research-interest-1" class = "text_label">Research Interest 1:</label>
+                <input class = "text_fill" id="research-interest-1" name="research-interest-1" type="text" placeholder="Research Interest 1" py-input="research_interest_1_input_handler()">
+            </div>
+
+            <div>
+                <label for="research-interest-2"class = "text_label">Research Interest 2:</label>
+                <input class = "text_fill" id="research-interest-2" name="research-interest-2" type="text" placeholder="Research Interest 2" py-input="research_interest_2_input_handler()">
+            </div>
+
+            <div>
+                <label for="research-interest-3" class = "text_label">Research Interest 3:</label>
+                <input class = "text_fill" id="research-interest-3" name="research-interest-3" type="text" placeholder="Research Interest 3" py-input="research_interest_3_input_handler()">
+            </div>
+            <div class="mt-6">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+
+        <div class="mb-12">
+            <h2 class="text-xl font-bold">Form values:</h2>
+            <div id="form-values"></div>
+        </div>
+
+        <p>As you can see, we can save user input from a form by adding a few event handlers. If you wish, you can then do a POST request to an API and save this data somewhere.</p>
+    </main>
+
+    <div class="results">
+        <h2>Results</h2>
+        <p>Here are your top labs of interest:</p>
+    </div>
+
+</body>
+</html>
