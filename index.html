@@ -21,39 +21,40 @@
         <p>Use this tool to help you find a sustained lab here at UMBC!  All majors welcome!</p>
 
         <py-script src="./main.py"></py-script>
-        <form id="form" py-submit="submit_handler()" reset="reset_handler()">
+        <form id="form" onsubmit="submitForm(event)">
             <div>
-                <label class = "text_label" for="name">Name:</label>
-                <input class = "text_fill" id="name" name="name" type="text" placeholder="Your Name"py-input="name_input_handler()">
+                <label class="text_label" for="name">Name:</label>
+                <input class="text_fill" id="name" name="name" type="text" placeholder="Your Name">
             </div>
 
             <div>
-                <label for="email" class = "text_label">Email:</label>
-                <input class = "text_fill" id="email" name="email" type="email" placeholder="your.email@example.com" py-input="email_input_handler()">
+                <label for="email" class="text_label">Email:</label>
+                <input class="text_fill" id="email" name="email" type="email" placeholder="your.email@example.com">
             </div>
 
             <div>
-                <label for="major" class = "text_label">Major:</label>
-                <input class = "text_fill" id="major" name="major" type="text" placeholder="Your Major" py-input="major_input_handler()">
+                <label for="major" class="text_label">Major:</label>
+                <input class="text_fill" id="major" name="major" type="text" placeholder="Your Major">
             </div>
 
             <div>
-                <label for="research-interest-1" class = "text_label">Research Interest 1:</label>
-                <input class = "text_fill" id="research-interest-1" name="research-interest-1" type="text" placeholder="Research Interest 1" py-input="research_interest_1_input_handler()">
+                <label for="research-interest-1" class="text_label">Research Interest 1:</label>
+                <input class="text_fill" id="research-interest-1" name="research-interest-1" type="text" placeholder="Research Interest 1">
             </div>
 
             <div>
-                <label for="research-interest-2"class = "text_label">Research Interest 2:</label>
-                <input class = "text_fill" id="research-interest-2" name="research-interest-2" type="text" placeholder="Research Interest 2" py-input="research_interest_2_input_handler()">
+                <label for="research-interest-2" class="text_label">Research Interest 2:</label>
+                <input class="text_fill" id="research-interest-2" name="research-interest-2" type="text" placeholder="Research Interest 2">
             </div>
 
             <div>
-                <label for="research-interest-3" class = "text_label">Research Interest 3:</label>
-                <input class = "text_fill" id="research-interest-3" name="research-interest-3" type="text" placeholder="Research Interest 3" py-input="research_interest_3_input_handler()">
+                <label for="research-interest-3" class="text_label">Research Interest 3:</label>
+                <input class="text_fill" id="research-interest-3" name="research-interest-3" type="text" placeholder="Research Interest 3">
             </div>
             <div class="mt-6">
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
+                <button type="button" id="export-csv">Export to CSV</button>
             </div>
         </form>
 
@@ -113,6 +114,35 @@
             // Load CSV data
             loadCSV();
         });
+
+        function submitForm(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            const form = document.getElementById('form');
+            const formData = new FormData(form);
+            const data = {};
+
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            fetch('https://ubiquitous-waffle-xvpxg77xq9hpww6-5000.app.github.dev/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                console.log('Success:', result);
+                alert('Form submitted successfully!');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error submitting the form.');
+            });
+        }
     </script>
 </body>
 </html>
