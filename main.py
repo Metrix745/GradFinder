@@ -9,7 +9,7 @@ form_values = {
     "research-interest-3": ""
 }
 
-display(f"Form values are: {form_values}", target="form-values")
+# display(f"Form values are: {form_values}", target="form-values")
 
 # Create all the event handlers
 
