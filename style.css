@@ -105,54 +105,47 @@ button:hover {
     margin-top: 0;
 }
 
-/* Additional styling for form values */
-#form-values {
-    background: var(--background-color);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-/* Style image gallery */
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Style results table */
+#results-table {
+    color:var(--text-color);
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
     overflow: hidden;
-    position: relative;
-    height: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.image-gallery img {
-    position: absolute;
-    transition: all 0.5s ease;
-    opacity: 0;
-    transform: scale(0.8);
-    filter: blur(5px);
+#results-table th, #results-table td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: left;
 }
 
-.image-gallery img.active {
-    opacity: 1;
-    transform: scale(1);
-    filter: blur(0);
-    z-index: 1;
-}
-
-.image-gallery button {
+#results-table th {
     background: var(--primary-color);
     color: white;
-    border: none;
-    padding: 10px;
+    font-weight: bold;
+}
+
+#results-table tr:nth-child(even) {
+    background: var(--background-color);
+}
+
+#results-table tr:hover {
+    background: var(--secondary-color);
+    color: var(--text-color);
     cursor: pointer;
-    z-index: 2;
 }
 
-.image-gallery .prev {
-    position: absolute;
-    left: 10px;
+/* Style hyperlinks */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
-.image-gallery .next {
-    position: absolute;
-    right: 10px;
+a:hover {
+    text-decoration: underline;
+    color: var(--text-color);
 }
