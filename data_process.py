@@ -1,47 +1,25 @@
+import csv
 import json
 import os
-import re
+import asyncio
+
 from bs4 import BeautifulSoup
-# from pydantic import BaseModel, Field
 from crawl4ai import AsyncWebCrawler
 from crawl4ai.extraction_strategy import (
     JsonCssExtractionStrategy,
     LLMExtractionStrategy,
 )
+import pandas as pd
 
-import asyncio
+CSV_DEST = 'umbc_profs.csv'
 
 async def simple_crawl(url):
     print("\n--- Basic Usage ---")  
     async with AsyncWebCrawler(verbose=True) as crawler:
         result = await crawler.arun(url=url)
-        return result
-
-from pandas import *
-
-async def extract_scholar_data(u):
-    schema = {
-        "name" : "Scholar",
-        "baseSelector" : "tr.gsc_a_tr",
-        "fields": [
-            
-        ],
-    }
-    extraction_strategy = JsonCssExtractionStrategy(schema, verbose=True)
-    async with AsyncWebCrawler(verbose=True) as crawler:
-            result = await crawler.arun(
-                url=u,
-                extraction_strategy=extraction_strategy,
-                bypass_cache=True,
-            )
-
-            assert result.success, "Failed to crawl the page"
+        return result.links
     
-            news_teasers = json.loads(result.extracted_content)
-    print(result.extracted_content)
-    return result
-
-async def extract_paper_data(u):
+async def extract_paper_data(url):
     schema = {
         "name" : "gsc_oci_title_link",
         "baseSelector": "gsc_oci_table",
@@ -76,7 +54,7 @@ async def extract_paper_data(u):
     extraction_strategy = JsonCssExtractionStrategy(schema, verbose=True)
     async with AsyncWebCrawler(verbose=True) as crawler:
             result = await crawler.arun(
-                url=u,
+                url=url,
                 extraction_strategy=extraction_strategy,
                 bypass_cache=True,
             )
@@ -85,27 +63,44 @@ async def extract_paper_data(u):
             news_teasers = json.loads(result.extracted_content)
     print(result.extracted_content)
     return result
-     
+
+def load_csv(file_path):
+    with open(file_path, 'r') as file:
+        reader = csv.reader(file)
+        data = list(reader)
+    return data
+
+def extract_scholar_id(data):
+    return [row[-1] for row in data if row[-1] != 'NOSCHOLARPAGE'][1:]
+
+async def read_scholar_page(scholar_id):
+    url = f'https://scholar.google.com/citations?user={scholar_id}&view_op=list_works&sortby=pubdate'
+    links = await simple_crawl(url)
+    
+    filtered_links = filter_links(links, scholar_id)
+
+    return filtered_links
+
+def filter_links(links, scholar_id):
+    flattened_links = []
+    for pair in links['internal']:
+        if scholar_id in list(pair.values())[0]:
+            if pair['text'] not in ['View all', 'Sort by citations', 'Sort by year', 'Sort by title']:
+                flattened_links.append(list(pair.values())[0])
+    return flattened_links
+
+async def process_link(link):
+    url = f"https://scholar.google.com{link}"
+    info = await extract_paper_data(url)
+
+    return info
 
 async def main():
-    data = read_csv("umbc_profs.csv")
-    scholarids = data['scholarid'].tolist()
-    id = scholarids[1]
-    # url = "https://scholar.google.com.ua/citations?hl=en&user=" + id + "&view_op=list_works&sortby=pubdate"
-    url = input("Enter the url: ")
+    raw_csv = load_csv(CSV_DEST)
+    scholar_ids = extract_scholar_id(raw_csv)
+    adam = await read_scholar_page(scholar_ids[0])
+    # print(adam)
+    blah = await process_link(adam[0])
+    print(blah)
 
-    # result = await extract_scholar_data(url)
-    mode = input("Enter the mode (1 for scholar data, 2 for paper data): ")
-    if mode == "1":
-        result = await simple_crawl(url)
-    else:
-        result = await extract_paper_data(url)
-    
-    with open("ex.txt",'w') as file:
-        print(result.url)
-        file.write(result.cleaned_html)
 asyncio.run(main())
-
-
-
-
