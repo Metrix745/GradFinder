@@ -23,33 +23,33 @@ async def extract_paper_data(url):
     schema = {
         "name" : "gsc_oci_title_link",
         "baseSelector": "gsc_oci_table",
-        "fields": [
-            {
-                "name": "authors",
-                "selector": "div.gsc_oci_value",
-                "type": "text",
-            },
-            {
-                "name": "date",
-                "selector": "div.gsc_oci_value",
-                "type": "text",
-            },
-            {
-                "name": "book",
-                "selector": "div.gsc_oci_value",
-                "type": "text",
-            },
-            {
-                "name": "pages",
-                "selector": "div.gsc_oci_value",
-                "type": "text",
-            },
-            {
-                "name": "description",
-                "selector": "div.gsc_oci_value",
-                "type": "text",
-            },
-        ],
+        # "fields": [
+        #     {
+        #         "name": "authors",
+        #         "selector": "div.gsc_oci_value",
+        #         "type": "text",
+        #     },
+        #     {
+        #         "name": "date",
+        #         "selector": "div.gsc_oci_value",
+        #         "type": "text",
+        #     },
+        #     {
+        #         "name": "book",
+        #         "selector": "div.gsc_oci_value",
+        #         "type": "text",
+        #     },
+        #     {
+        #         "name": "pages",
+        #         "selector": "div.gsc_oci_value",
+        #         "type": "text",
+        #     },
+        #     {
+        #         "name": "description",
+        #         "selector": "div.gsc_oci_value",
+        #         "type": "text",
+        #     },
+        # ],
     }
     extraction_strategy = JsonCssExtractionStrategy(schema, verbose=True)
     async with AsyncWebCrawler(verbose=True) as crawler:
@@ -92,40 +92,49 @@ def filter_links(links, scholar_id):
 async def process_link(link):
     url = f"https://scholar.google.com{link}"
     info = await extract_paper_data(url)
-    
 
-    soup = BeautifulSoup(info.html, 'html.parser')
+    soup = BeautifulSoup(info.html, 'html.parser', from_encoding='utf-8')
 
-    extracted_data = [div.get_text() for div in soup.find_all('div', class_='gsc_oci_value')]
+    # extracted_data = [div.get_text() for div in soup.find_all('div', class_='gsc_oci_value')]
+    description = soup.find('div', id="gsc_oci_descr")
+    if description:
+        description = description.get_text()
+    else:
+        description = 'No description available'
 
-    return extracted_data
+    title = soup.find('meta', property='og:title')
+    if title:
+        title = title['content']
+    else:
+        title = 'No title available'
+
+    return description, title
 
 async def main():
     raw_csv = load_csv(CSV_DEST)
     scholar_ids = extract_scholar_id(raw_csv)
-    # adam = await read_scholar_page(scholar_ids[0])
-    # # print(adam)
-    # extracted_paper = await process_link(adam[0])
-    # print(extracted_paper)
+    # remove duplicates
+    scholar_ids = list(set(scholar_ids))
     
-    dictionary = {}
-
     for scholar_id in scholar_ids:
-        dictionary[scholar_id] = {
-            'authors': [],
-            'date': [],
-            'book': [],
-            'pages': [],
-            'description': []
+        person_work = {
+            'scholar_id': scholar_id,
+            # 'authors': [],
+            # 'date': [],
+            # 'book': [],
+            # 'pages': [],
+            'description': [],
+            'title': []
         }
         links = await read_scholar_page(scholar_id)
         for link in links:
-            extracted_data = await process_link(link)
-            dictionary[scholar_id]['authors'].append(extracted_data[0])
-            dictionary[scholar_id]['date'].append(extracted_data[1])
-            dictionary[scholar_id]['book'].append(extracted_data[2])
-            dictionary[scholar_id]['pages'].append(extracted_data[3])
-            dictionary[scholar_id]['description'].append(extracted_data[4])
+            description, title = await process_link(link)
+
+            person_work['description'].append(description)
+            person_work['title'].append(title)
+        
+        with open(f'prof_jsons/{scholar_id}.json', 'w') as json_file:
+            json.dump(person_work, json_file, indent=4)
 
 
 
