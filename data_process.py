@@ -128,6 +128,7 @@ async def main():
         }
         links = await read_scholar_page(scholar_id)
         for link in links:
+<<<<<<< HEAD
             description, title = await process_link(link)
 
             person_work['description'].append(description)
@@ -135,6 +136,15 @@ async def main():
         
         with open(f'prof_jsons/{scholar_id}.json', 'w') as json_file:
             json.dump(person_work, json_file, indent=4)
+=======
+            extracted_data = await process_link(link)
+            dictionary[scholar_id]['authors'].append(extracted_data[0])
+            dictionary[scholar_id]['date'].append(extracted_data[1])
+            dictionary[scholar_id]['book'].append(extracted_data[2])
+            dictionary[scholar_id]['pages'].append(extracted_data[3])
+            dictionary[scholar_id]['description'].append(extracted_data[4])
+        
+>>>>>>> salman3
 
 
 
