@@ -7,28 +7,22 @@ es = Elasticsearch(
     
 )
 
-doc_count = es.count(index="profs")['count']
-print(f"Total documents indexed: {doc_count}")
-input()
-
-ingest_pipeline = es.ingest.get_pipeline(id="elser-ingest-pipeline")
-print(ingest_pipeline)
-input()
-
-indexed_doc = es.get(index="profs", id=1)
-print(indexed_doc)
-input()
-
 response = es.search(
     index="profs",
     size=1,
     query={
         "text_expansion": {
-            "plot_embedding": {
+            "description_embedding": {
                 "model_id": ".elser_model_2",
                 "model_text": "visual",
             }
         }
     },
 )
-print(response)
+
+print(response["hits"]["hits"][0]['_source']['scholar_id'])
+for hit in response['hits']['hits']:
+    #print(hit)
+    print()
+    
+    
