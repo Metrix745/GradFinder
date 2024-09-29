@@ -1,2 +1,158 @@
+/* Define color palette */
+:root {
+    --primary-color: #9ab973; /* Green */
+    --secondary-color: #ead2ac; /* Light Brown */
+    --accent-color: #3a976f; /* Dark Green */
+    --background-color: #e3eaee; /* Light Background */
+    --text-color: #21421e; /* Dark Text */
+    --font-family: 'Quicksand', sans-serif;
+}
 
+/* Apply background and font */
+body {
+    background: linear-gradient(to bottom, var(--background-color), #f5f5dc);
+    font-family: var(--font-family);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
 
+/* Style header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: var(--font-family);
+    color: var(--accent-color);
+}
+
+/* Style main container */
+main {
+    max-width: 800px;
+    margin: 20px auto 0 auto; /* Add margin-top for distance from header */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1, h2 {
+    color: var(--primary-color);
+}
+
+/* Style form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text_label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.text_fill {
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background: var(--secondary-color);
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Style results section */
+.results {
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--accent-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.results h2 {
+    margin-top: 0;
+}
+
+/* Additional styling for form values */
+#form-values {
+    background: var(--background-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style image gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 300px; /* Adjust as needed */
+}
+
+.image-gallery img {
+    position: absolute;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: scale(0.8);
+    filter: blur(5px);
+}
+
+.image-gallery img.active {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+    z-index: 1;
+}
+
+.image-gallery button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.image-gallery .prev {
+    position: absolute;
+    left: 10px;
+}
+
+.image-gallery .next {
+    position: absolute;
+    right: 10px;
+}

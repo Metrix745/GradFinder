@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="hackUMBCTextShadow.png" alt="Logo">
+        </div>
+        <h1>Your Website Title</h1>
+    </header>
     <main>
         <h1>Lab Finder</h1>
         <p>Use this tool to help you find a sustained lab here at UMBC!  All majors welcome!</p>
@@ -59,7 +66,61 @@
     <div class="results">
         <h2>Results</h2>
         <p>Here are your top labs of interest:</p>
+        <div class="image-gallery">
+            <button class="prev">Previous</button>
+            <img src="https://undergraduate.umbc.edu/wp-content/uploads/2021/09/UMBC-Campus-drone2020-0392-scaled.jpg" alt="Lab 1">
+            <img src="path/to/image2.jpg" alt="Lab 2">
+            <img src="path/to/image3.jpg" alt="Lab 3">
+            <img src="path/to/image4.jpg" alt="Lab 4">
+            <button class="next">Next</button>
+        </div>
     </div>
 
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('.image-gallery img');
+        const nextButton = document.querySelector('.image-gallery .next');
+        const prevButton = document.querySelector('.image-gallery .prev');
+        let currentIndex = 0;
+        let interval;
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        function showPrevImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        function startAutoRotate() {
+            interval = setInterval(showNextImage, 3000); // Change image every 3 seconds
+        }
+
+        function stopAutoRotate() {
+            clearInterval(interval);
+        }
+
+        nextButton.addEventListener('click', function() {
+            stopAutoRotate();
+            showNextImage();
+            startAutoRotate();
+        });
+
+        prevButton.addEventListener('click', function() {
+            stopAutoRotate();
+            showPrevImage();
+            startAutoRotate();
+        });
+
+        images[currentIndex].classList.add('active');
+        startAutoRotate();
+    });
+</script>
+
 </html>
