@@ -7,8 +7,9 @@ import os
 
 
 es = Elasticsearch(
-    cloud_id="8bea67a8bbf24d56ac04d03a52055394:dXMtZWFzdDQuZ2NwLmVsYXN0aWMtY2xvdWQuY29tJGU5NmRhMDc2OWEzNTRmMmE4MjI3MGQ4YWE0MmZlZGQxJDViNDdhYWQ5NDBiNDRiMjliNWMwMWYxYTBkMDJmMjZh",
-    api_key="Z2dwcFBKSUJkcE5vX0NmS3Bfc2w6d196TF85b1lSQmFfSFRPTV9zUjNyZw=="
+    cloud_id="hackumbc204:dXMtZWFzdDQuZ2NwLmVsYXN0aWMtY2xvdWQuY29tJDliYzU5ZGM5NTZmOTQ2YWRiY2E2Mjk5OWY2MDgzNWU3JDg4MWJmODc0OWY1MjQwYWE4YzYyMTFmYjAyNzlkMWRm",
+    api_key="T0JTMFBKSUJHSk9vRERQemM3MFo6M2tvOUV1SWFUMWVIc3lsc0Y0ZkhRdw==   "
+    
 )
 print(es.info())
 
@@ -58,7 +59,7 @@ es.ingest.put_pipeline(
             "inference": {
                 "model_id": ".elser_model_2",
                 "input_output": [
-                    {"input_field": "desc0", "output_field": "plot_embedding"}
+                    {"input_field": "description", "output_field": "description_embedding"}
                 ],
             }
         }
@@ -69,8 +70,8 @@ mappings = {
         "properties": {
             "id" : {"type":"text"}}
 }
-mappings["plot_embedding"] = {"type": "sparse_vector"}
-mappings["descs"] = {"type":"text", "fields": {"keyword": {"type": "keyword", "ignore_above": 256}},}
+mappings["properties"]["description_embedding"] = {"type": "sparse_vector"}
+mappings["properties"]["description"] = {"type":"text"}
 
 
 es.indices.delete(index="profs", ignore_unavailable=True)
@@ -81,18 +82,22 @@ except exceptions.BadRequestError:
     print()
 
 dir = "prof_jsons"
+
+i = 0
 for file in os.listdir(dir):
     print("hi")
     with open(os.path.join(dir,file)) as f:
         data = json.load(f)
-        es.index(index="profs",id=1,document=data)
+        data["description"] = str(data["description"])
+        es.index(index="profs",id=i,document=data)
+    i = i+1
 
 response = es.search(
     index="profs",
     size=1,
     query={
         "text_expansion": {
-            "plot_embedding": {
+            "description_embedding": {
                 "model_id": ".elser_model_2",
                 "model_text": "computer vision",
             }
