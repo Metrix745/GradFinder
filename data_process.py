@@ -126,6 +126,7 @@ async def main():
             dictionary[scholar_id]['book'].append(extracted_data[2])
             dictionary[scholar_id]['pages'].append(extracted_data[3])
             dictionary[scholar_id]['description'].append(extracted_data[4])
+        
 
 
 

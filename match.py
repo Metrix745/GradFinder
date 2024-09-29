@@ -1,23 +1,37 @@
 from elasticsearch import Elasticsearch
-import pandas as pd
+import json
 
 
 
 es = Elasticsearch("http://localhost:9200")
-es.info().body
-
 
 mappings = {
         "properties": {
-            "name": {"type": "text", "analyzer": "english"},
-            "department": {"type": "text", "analyzer": "standard"},
-            "director": {"type": "text", "analyzer": "standard"},
-            "cast": {"type": "text", "analyzer": "standard"},
-            "genre": {"type": "text", "analyzer": "standard"},
-            "plot": {"type": "text", "analyzer": "english"},
-            "year": {"type": "integer"},
-            "scholar_page": {"type": "keyword"}
-    }
+            "id" : {"type":"text"}}
 }
+for i in range(20):
+    currstring = f"desc{i}"
+    mappings["properties"][currstring] = {"type":"text","analyzer":"english"}
 
-es.indices.create(index="movies", mappings=mappings)
+es.indices.create(index="profs", mappings=mappings)
+
+
+with open("./profjsons/i3uLKmkAAAAJ.json") as file:
+    data = json.load(file)
+    es.index(index="profs",id=1,document=data)
+
+
+resp = es.search(
+    index="profs",
+    query={
+            "bool": {
+                "must": {
+                    "match_phrase": {
+                        "description": "Universal Declaration of the Rights of Wetlands",
+                    }
+                },
+            },
+        },
+)
+
+print(resp.body)
